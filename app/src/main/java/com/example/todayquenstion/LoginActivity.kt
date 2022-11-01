@@ -23,6 +23,7 @@ class LoginActivity : AppCompatActivity() {
         //// 다시 노트북
         //// 라스트 컴퓨터
         /// 라스트 노트북
+        /// 라스트 컴퓨터2
 
 
 
