@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         Log.d("asd","asd")
-        ////
+        //// 노트북에서 작성했습니다 이주석은
 
 
 
