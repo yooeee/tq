@@ -22,6 +22,7 @@ class LoginActivity : AppCompatActivity() {
         //// 이건 커뮾터에서 작성햇습니다
         //// 다시 노트북
         //// 라스트 컴퓨터
+        /// 라스트 노트북
 
 
 
