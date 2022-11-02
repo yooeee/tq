@@ -14,11 +14,19 @@ class MyhomeFragment : Fragment() {
 
 
 
+
+
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 ////
         // 1. 뷰 바인딩 설정
         val binding = FragmentMyhomeBinding.inflate(inflater, container, false)
         // 나의메뉴 클릭시 프래그먼트 이동
+        val mActivity = activity as MainhomeActivity
+        binding.mygiftbtn.setOnClickListener(){
+            mActivity.changeFragment(1)
+        }
+
 
 
 

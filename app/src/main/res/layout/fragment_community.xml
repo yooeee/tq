@@ -92,7 +92,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="최근에 사람들이 많이 궁금해 하는 질문"
                 android:textSize="23dp"
