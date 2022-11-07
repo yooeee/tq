@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+<!-- 대표 색상코드 : #87CEEB-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="420dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="#87CEEB"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:text="Q. 프레임워크와 라이브러리 차이점이 무엇인가요?">
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="420dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+
+            android:background="#87CEEB"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

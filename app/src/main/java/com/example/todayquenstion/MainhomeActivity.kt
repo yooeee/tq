@@ -24,6 +24,7 @@ class MainhomeActivity : AppCompatActivity() {
         //기본적으로 메인홈 프래그먼트 보여주기
         supportFragmentManager.beginTransaction()
             .replace(R.id.mainhome_fragment, MainhomeFragment())
+            .addToBackStack(null)
             .commit()
 
         //////
@@ -33,6 +34,7 @@ class MainhomeActivity : AppCompatActivity() {
         binding.mymenubtn.setOnClickListener(){
             supportFragmentManager.beginTransaction()
                 .replace(R.id.mainhome_fragment, MyhomeFragment())
+                .addToBackStack(null)
                 .commit()
         }
 
@@ -40,6 +42,7 @@ class MainhomeActivity : AppCompatActivity() {
         binding.quenstionbtn.setOnClickListener(){
             supportFragmentManager.beginTransaction()
                 .replace(R.id.mainhome_fragment, UserCommuFragment())
+                .addToBackStack(null)
                 .commit()
         }
         //
@@ -48,6 +51,7 @@ class MainhomeActivity : AppCompatActivity() {
         binding.mainhomebtn.setOnClickListener(){
             supportFragmentManager.beginTransaction()
                 .replace(R.id.mainhome_fragment, MainhomeFragment())
+                .addToBackStack(null)
                 .commit()
         }
         //
@@ -64,6 +68,7 @@ class MainhomeActivity : AppCompatActivity() {
                 supportFragmentManager
                     .beginTransaction()
                     .replace(R.id.mainhome_fragment, MyGifticonFragment())
+                    .addToBackStack(null)
                     .commit()
 
             }

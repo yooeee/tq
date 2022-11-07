@@ -2,6 +2,7 @@ package com.example.todayquenstion
 
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,6 +19,12 @@ class MyGifticonFragment : Fragment() {
         // 1. 뷰 바인딩 설정
         val binding = FragmentMygiftBinding.inflate(inflater, container, false)
         // 나의메뉴 클릭시 프래그먼트 이동
+
+        var temp = 23
+
+        temp = temp+105
+
+        Log.d("a","asd"+temp)
 
 
 
