@@ -11,7 +11,7 @@ class UserCommuFragment : Fragment() {
 
 
     var list = arrayListOf<Quenstion>()
-
+//
 
 
 
