@@ -6,11 +6,15 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.todayquenstion.Item.Quenstion
 import com.example.todayquenstion.MainhomeActivity
 import com.example.todayquenstion.R
 
+
+// 본 어댑터는 UserQuenstionAdapter 입니다.
+
 // 리스트 데이터를 넘겨받아야 한다.
-class uqAdapter (private var list: MutableList<MainhomeActivity.TestData>): RecyclerView.Adapter<uqAdapter.ListItemViewHolder> () {
+class uqAdapter (private var list: MutableList<Quenstion>): RecyclerView.Adapter<uqAdapter.ListItemViewHolder> () {
 
     // inner class로 ViewHolder 정의
     inner class ListItemViewHolder(itemView: View?): RecyclerView.ViewHolder(itemView!!) {
@@ -20,7 +24,7 @@ class uqAdapter (private var list: MutableList<MainhomeActivity.TestData>): Recy
         var data3Text: TextView = itemView!!.findViewById(R.id.qtwriter)
 
         // onBindViewHolder의 역할을 대신한다.
-        fun bind(data: MainhomeActivity.TestData, position: Int) {
+        fun bind(data: Quenstion, position: Int) {
             Log.d("ListAdapter", "===== ===== ===== ===== bind ===== ===== ===== =====")
             Log.d("ListAdapter", data.getData1()+" "+data.getData2()+" "+data.getData3())
             data1Text.text = data.getData1()
