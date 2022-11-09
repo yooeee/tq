@@ -1,4 +1,4 @@
-package com.example.todayquenstion
+package com.example.todayquenstion.Adapter
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -6,9 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.todayquenstion.MainhomeActivity
+import com.example.todayquenstion.R
 
 // 리스트 데이터를 넘겨받아야 한다.
-class ListAdapter (private var list: MutableList<MainhomeActivity.TestData>): RecyclerView.Adapter<ListAdapter.ListItemViewHolder> () {
+class uqAdapter (private var list: MutableList<MainhomeActivity.TestData>): RecyclerView.Adapter<uqAdapter.ListItemViewHolder> () {
 
     // inner class로 ViewHolder 정의
     inner class ListItemViewHolder(itemView: View?): RecyclerView.ViewHolder(itemView!!) {
@@ -38,7 +40,7 @@ class ListAdapter (private var list: MutableList<MainhomeActivity.TestData>): Re
     }
 
     // ViewHolder의 bind 메소드를 호출한다.
-    override fun onBindViewHolder(holder: ListAdapter.ListItemViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ListItemViewHolder, position: Int) {
         Log.d("ListAdapter", "===== ===== ===== ===== onBindViewHolder ===== ===== ===== =====")
         holder.bind(list[position], position)
     }

@@ -8,13 +8,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.todayquenstion.Adapter.uqAdapter
 import com.example.todayquenstion.databinding.FragmentCommunityBinding
 
 class UserCommuFragment : Fragment() {
 
 
     var list = arrayListOf<Quenstion>()
-    private lateinit var listAdapter: ListAdapter
+    private lateinit var uqAdapter: uqAdapter
 //
 
 
@@ -32,10 +33,10 @@ class UserCommuFragment : Fragment() {
                 as ArrayList<MainhomeActivity.TestData>
         Log.e("FirstFragment", "Data List: ${list}")
 
-        listAdapter = ListAdapter(list)
+        uqAdapter = uqAdapter(list)
         binding.listtest.layoutManager = LinearLayoutManager(activity, RecyclerView.VERTICAL, false)
         // RecyclerView.adapter에 지정
-        binding.listtest.adapter = listAdapter
+        binding.listtest.adapter = uqAdapter
 
 
 
@@ -61,6 +62,8 @@ class UserCommuFragment : Fragment() {
 
 
     }
+
+
 
 
 
