@@ -68,6 +68,7 @@ class MainhomeActivity : AppCompatActivity() {
     // 프래그먼트에서 프래그먼트로 화면전환할때 필요한거 이렇게하는게 맞는지 의문입니다 너무 귀찮은데
     fun changeFragment(index: Int){
         when(index){
+            // 1: 나의 기프티콘
             1 -> {
                 supportFragmentManager
                     .beginTransaction()
@@ -76,6 +77,7 @@ class MainhomeActivity : AppCompatActivity() {
                     .commit()
 
             }
+            // 2: 유저의 질문글화면
             2 -> {
                 supportFragmentManager
                     .beginTransaction()

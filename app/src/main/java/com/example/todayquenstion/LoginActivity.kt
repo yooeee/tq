@@ -33,6 +33,10 @@ class LoginActivity : AppCompatActivity() {
             val nextIntent = Intent(this, MainhomeActivity::class.java)
             startActivity(nextIntent)
         }
+        binding.signupbtn.setOnClickListener() {
+            val nextIntent = Intent(this, SignupActivity::class.java)
+            startActivity(nextIntent)
+        }
 
 
 
