@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".MainhomeActivity"></activity>
         <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".PickfavoriteActivity"></activity>
+        <activity android:name=".Pickfavorite2Activity"></activity>
 
 
 

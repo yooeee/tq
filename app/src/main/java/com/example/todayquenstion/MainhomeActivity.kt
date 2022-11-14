@@ -1,6 +1,7 @@
 package com.example.todayquenstion
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentTransaction
 import com.example.todayquenstion.Item.Quenstion
@@ -18,9 +19,13 @@ class MainhomeActivity : AppCompatActivity() {
         binding = ActivityMainhomeBinding.inflate(layoutInflater);
         setContentView(binding.root)
 
-
-
-
+        //데이터 받기
+        val loging_id = intent.getStringExtra("loging_id")
+        val loging_pw = intent.getStringExtra("loging_pw")
+        val loging_nickname = intent.getStringExtra("loging_nickname")
+        val loging_point = intent.getStringExtra("loging_point")
+        val loging_rating = intent.getStringExtra("loging_rating")
+        System.out.println("아아 받은것은 "+loging_id)
 
         //기본적으로 메인홈 프래그먼트 보여주기
         supportFragmentManager.beginTransaction()

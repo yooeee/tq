@@ -7,6 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.android.volley.Request
+import com.android.volley.Response
+import com.android.volley.toolbox.StringRequest
 import com.example.todayquenstion.databinding.ActivityMainhomeBinding
 import com.example.todayquenstion.databinding.FragmentMyhomeBinding
 
@@ -44,5 +47,9 @@ class MyhomeFragment : Fragment() {
 
 
 
-    }
+    } //oncreateview
+
+
+
+
 }
