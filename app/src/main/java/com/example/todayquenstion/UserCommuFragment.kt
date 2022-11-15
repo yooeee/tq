@@ -31,17 +31,17 @@ class UserCommuFragment : Fragment() {
         // 나의메뉴 클릭시 프래그먼트 이동
 
         list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
+        list.add(Quenstion("Q.첫 번째 데이터2", "두 번째 데이터2", "세 번째 데이터2"))
+        list.add(Quenstion("Q.첫 번째 데이터3", "두 번째 데이터3", "세 번째 데이터3"))
+        list.add(Quenstion("Q.첫 번째 데이터4", "두 번째 데이터4", "세 번째 데이터4"))
+        list.add(Quenstion("Q.첫 번째 데이터5", "두 번째 데이터5", "세 번째 데이터5"))
 
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
-        list.add(Quenstion("Q.첫 번째 데이터1", "두 번째 데이터1", "세 번째 데이터1"))
+        list.add(Quenstion("Q.첫 번째 데이터6", "두 번째 데이터6", "세 번째 데이터6"))
+        list.add(Quenstion("Q.첫 번째 데이터7", "두 번째 데이터7", "세 번째 데이터7"))
+        list.add(Quenstion("Q.첫 번째 데이터8", "두 번째 데이터8", "세 번째 데이터8"))
+        list.add(Quenstion("Q.첫 번째 데이터9", "두 번째 데이터9", "세 번째 데이터9"))
+        list.add(Quenstion("Q.첫 번째 데이터10", "두 번째 데이터10", "세 번째 데이터10"))
+        list.add(Quenstion("Q.첫 번째 데이터11", "두 번째 데이터11", "세 번째 데이터11"))
 
         //리사이클뷰
 

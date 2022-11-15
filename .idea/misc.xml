@@ -3,12 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/acitivity_signup.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/activity_mainhome.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/activity_mainhome2.xml" value="0.34427083333333336" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/activity_pickfavorite.xml" value="0.18" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_commu.xml" value="0.17806484295845998" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_community.xml" value="0.34427083333333336" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_mainhome.xml" value="0.33" />
@@ -16,13 +14,8 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_mygift.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_myhome.xml" value="0.17307692307692307" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_myqa.xml" value="0.17806484295845998" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_tqaianswer.xml" value="0.15982776089159068" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_tqanswer.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_tquseranswers.xml" value="0.15982776089159068" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_viewquenstion.xml" value="0.2767210144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/fragment_writequenstion.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/layout_uq_answer.xml" value="0.2767210144927536" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/layout_user_quenstion.xml" value="0.2767210144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/main_home.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/my_gifticon.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/my_home.xml" value="0.36614583333333334" />
@@ -31,7 +24,6 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/pick_favorite2.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/signup.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/trans_point.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/xml/security_config.xml" value="0.14628623188405798" />
         <entry key="..\:/Users/User/TodayQuenstion/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.352" />
         <entry key="..\:/Users/User/TodayQuenstion/app/src/main/res/drawable/basic.xml" value="0.352" />
         <entry key="..\:/Users/User/TodayQuenstion/app/src/main/res/drawable/button.xml" value="0.352" />
@@ -55,11 +47,29 @@
         <entry key="..\:/Users/Yoo/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/pick_favorite2.xml" value="0.264" />
         <entry key="..\:/Users/Yoo/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/signup.xml" value="0.264" />
         <entry key="..\:/Users/Yoo/AndroidStudioProjects/TodayQuenstion2/app/src/main/res/layout/trans_point.xml" value="0.264" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/drawable/button.xml" value="0.1765" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/activity_login.xml" value="0.2125" />
         <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/activity_mainhome.xml" value="0.2028985507246377" />
-        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_community.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/activity_pickfavorite.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_community.xml" value="0.2" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_item.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_item_list.xml" value="0.2125" />
         <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_mainhome.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_mygift.xml" value="0.2125" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_myhome.xml" value="0.2125" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_myqa.xml" value="0.23125" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_tqaianswer.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_tqanswer.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_tquseranswers.xml" value="0.2125" />
         <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_trans_point.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_viewquenstion.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/fragment_writequenstion.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/layout_uq_answer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/layout_user_quenstion.xml" value="0.264" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/my_quen_ans.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/pick_favorite.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/pick_favorite2.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Yoo/AndroidStudioProjects/tq/app/src/main/res/layout/signup.xml" value="0.23802083333333332" />
       </map>
     </option>
   </component>

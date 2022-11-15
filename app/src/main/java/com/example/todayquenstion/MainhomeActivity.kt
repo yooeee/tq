@@ -92,6 +92,36 @@ class MainhomeActivity : AppCompatActivity() {
 
             }
 
+            // 3: 내 질문및 답변들
+            3 -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.mainhome_fragment, MyQAlistFragment())
+                    .addToBackStack(null)
+                    .commit()
+
+            }
+
+//            // 4: 관심분야 재설정
+//            4 -> {
+//                supportFragmentManager
+//                    .beginTransaction()
+//                    .replace(R.id.mainhome_fragment, ViewQuenstionFragment())
+//                    .addToBackStack(null)
+//                    .commit()
+//
+//            }
+
+            // 5: 포인트전환
+            5 -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.mainhome_fragment, MytopointFragment())
+                    .addToBackStack(null)
+                    .commit()
+
+            }
+
 
         }
 

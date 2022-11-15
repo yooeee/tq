@@ -85,7 +85,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="10dp"
-                    android:text="Q. 질문 제목"
+                    android:text="Q. 프레임워크와 라이브러리 차이점이 무엇인가요?"
                     android:textSize="25dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
@@ -107,7 +107,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/shape1"
-                    android:text="질문 내용"
+                    android:text="안녕하세요 질문이있습니다. 프레임워크와 라이브러리 차이점이 뭐죠?"
                     android:textSize="20dp"
                     android:textColor="@color/black"
                     android:textStyle="bold">
@@ -123,7 +123,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="25dp"
                         android:layout_marginTop="10dp"
-                        android:text="질문자 : OOOOOOOO"
+                        android:text="질문자 : 인하공돌이"
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="bold">
@@ -134,7 +134,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="25dp"
                         android:layout_marginTop="10dp"
-                        android:text="등급 : OO"
+                        android:text="등급 : 새싹"
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="bold">
@@ -145,7 +145,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="25dp"
                         android:layout_marginTop="10dp"
-                        android:text="작성일 : OO-OO-OO"
+                        android:text="작성일 : 22-11-10"
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="bold">

@@ -54,7 +54,7 @@ class Pickfavorite2Activity : AppCompatActivity() {
             nextIntent.putExtra("loging_pw",loging_pw)
             nextIntent.putExtra("loging_point",loging_point)
             nextIntent.putExtra("loging_rating",loging_rating)
-            Toast.makeText(this, "회원가입이 완료되었습니다!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "완료되었습니다!", Toast.LENGTH_SHORT).show()
 
 
 

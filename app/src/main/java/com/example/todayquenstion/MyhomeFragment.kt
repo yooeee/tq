@@ -30,6 +30,21 @@ class MyhomeFragment : Fragment() {
             mActivity.changeFragment(1)
         }
 
+        binding.myqabtn.setOnClickListener(){
+            mActivity.changeFragment(3)
+        }
+
+        binding.myfavorReBtn.setOnClickListener(){
+            activity?.let{
+                val intent = Intent(context, PickfavoriteActivity::class.java)
+                startActivity(intent)
+            }
+        }
+
+        binding.mytopointbtn.setOnClickListener(){
+            mActivity.changeFragment(5)
+        }
+
 
 
 
