@@ -122,6 +122,40 @@ class MainhomeActivity : AppCompatActivity() {
 
             }
 
+            // 6: 오늘의질문 답변하기
+            6 -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.mainhome_fragment, TqAnswerFragment())
+                    .addToBackStack(null)
+                    .commit()
+
+            }
+
+            // 7: 오늘의질문 정답보기
+            7 -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.mainhome_fragment, TqAiAnswerFragment())
+                    .addToBackStack(null)
+                    .commit()
+
+            }
+
+            // 8: 오늘의질문 다른유저 정답보기
+            8 -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.mainhome_fragment, TquseranswerFragment())
+                    .addToBackStack(null)
+                    .commit()
+
+            }
+
+
+
+
+
 
         }
 
