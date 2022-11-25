@@ -42,7 +42,7 @@
 
 
             <TextView
-                android:id="@+id/todayquenstion"
+                android:id="@+id/tv_usernickname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
@@ -62,14 +62,14 @@
 
                 android:orientation="vertical">
                 <TextView
-
+                    android:id="@+id/tv_userfavorite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="50dp"
 
-                    android:text="관심분야 : [IT - 프로그래밍]"
+                    android:text=""
                     android:textAlignment="center"
 
                     android:textColor="@color/black"
@@ -77,14 +77,14 @@
                     android:textStyle="bold" />
 
                 <TextView
-
+                    android:id="@+id/tv_userrating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="50dp"
 
-                    android:text="등급 : [새싹]"
+                    android:text=""
                     android:textAlignment="center"
 
                     android:textColor="@color/black"

@@ -3,6 +3,7 @@ package com.example.todayquenstion
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.example.todayquenstion.Item.Quenstion
 import com.example.todayquenstion.databinding.ActivityMainhomeBinding
@@ -27,7 +28,7 @@ class MainhomeActivity : AppCompatActivity() {
         val loging_rating = intent.getStringExtra("loging_rating")
         val loging_mainfv = intent.getStringExtra("loging_mainfv")
         val loging_subfv = intent.getStringExtra("loging_subfv")
-        System.out.println("아아 받은것은 "+loging_id+loging_pw+loging_nickname+loging_point+loging_rating+loging_mainfv+loging_subfv)
+        System.out.println("여기는 아아받은것은 "+loging_id+loging_pw+loging_nickname+loging_point+loging_rating+loging_mainfv+loging_subfv)
 
         //기본적으로 메인홈 프래그먼트 보여주기
         supportFragmentManager.beginTransaction()
@@ -40,10 +41,33 @@ class MainhomeActivity : AppCompatActivity() {
 
         // 나의메뉴 클릭시 프래그먼트 이동
         binding.mymenubtn.setOnClickListener(){
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.mainhome_fragment, MyhomeFragment())
+            // 프래그먼트에 유저정보 보내주기
+            Log.d("나의메뉴클릭","작동")
+            var bundle:Bundle = Bundle()
+            bundle.putString("loging_id",loging_id)
+            bundle.putString("loging_pw",loging_pw)
+            bundle.putString("loging_nickname",loging_nickname)
+            bundle.putString("loging_point",loging_point)
+            bundle.putString("loging_rating",loging_rating)
+            bundle.putString("loging_mainfv",loging_mainfv)
+            bundle.putString("loging_subfv",loging_subfv)
+
+            var myhomeFragment: MyhomeFragment = MyhomeFragment()
+            myhomeFragment.arguments=bundle
+
+            var manager : FragmentManager = supportFragmentManager
+
+
+            var transaction:FragmentTransaction=manager.beginTransaction()
+            transaction.replace(R.id.mainhome_fragment, myhomeFragment)
                 .addToBackStack(null)
                 .commit()
+
+
+//            supportFragmentManager.beginTransaction()
+//                .replace(R.id.mainhome_fragment, MyhomeFragment())
+//                .addToBackStack(null)
+//                .commit()
         }
 
         //유저커뮤 클릭시 프래그먼트 이동
