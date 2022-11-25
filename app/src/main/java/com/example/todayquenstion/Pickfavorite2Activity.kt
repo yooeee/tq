@@ -21,6 +21,9 @@ class Pickfavorite2Activity : AppCompatActivity() {
 
     private lateinit var binding : ActivityPickfavorite2Binding;
     var queue: RequestQueue? = null
+    var favoriteMain:String = ""
+    var favoriteSub:String = ""
+
 //    val loging_id :String = ""
 //    val loging_pw :String = ""
 //    val loging_nickname :String = ""
@@ -39,29 +42,36 @@ class Pickfavorite2Activity : AppCompatActivity() {
         var loging_nickname = intent.getStringExtra("loging_nickname").toString()
         var loging_point = intent.getStringExtra("loging_point").toString()
         var loging_rating = intent.getStringExtra("loging_rating").toString()
+        var loging_mainfv = intent.getStringExtra("loging_mainfv").toString()
+
+        Log.d("가져왔나 메인fv",loging_mainfv)
 
         // 초기화
         if(queue== null){
             queue = Volley.newRequestQueue(this)
         }
 
-        binding.check3.setOnClickListener(){
+        binding.programingbtn.setOnClickListener(){ // 프로그래밍 코드 17
+            favoriteSub = "프로그래밍"
+            Toast.makeText(this, "프로그래밍을 선택하셨습니다.", Toast.LENGTH_SHORT).show()
 
-            InputUsers(loging_id,loging_pw,loging_nickname,loging_point,loging_rating)
+        }
+
+        binding.registerbtn.setOnClickListener(){ // 선택하기 버튼시
+
+            InputUsers(loging_id,loging_pw,loging_nickname,loging_point,loging_rating,loging_mainfv,favoriteSub)
             val nextIntent = Intent(this, MainhomeActivity::class.java)
             nextIntent.putExtra("loging_id",loging_id)
             nextIntent.putExtra("loging_nickname",loging_nickname)
             nextIntent.putExtra("loging_pw",loging_pw)
             nextIntent.putExtra("loging_point",loging_point)
             nextIntent.putExtra("loging_rating",loging_rating)
+            nextIntent.putExtra("loging_mainfv",loging_mainfv)
+            nextIntent.putExtra("loging_subfv",favoriteSub)
             Toast.makeText(this, "완료되었습니다!", Toast.LENGTH_SHORT).show()
 
 
-
-
-
             startActivity(nextIntent)
-
         }
 
 
@@ -73,7 +83,7 @@ class Pickfavorite2Activity : AppCompatActivity() {
 
     }
 
-    fun InputUsers(id:String,name:String,pw:String,point:String,rating:String) {
+    fun InputUsers(id:String,name:String,pw:String,point:String,rating:String,mainsv:String,subsv:String) { // 서버에 유저정보를 넣습니다.
         var url: String? = "http://192.168.75.106:9090/tq_input_users.php"
         val stringRequest = object : StringRequest(
             Request.Method.POST,
@@ -94,6 +104,8 @@ class Pickfavorite2Activity : AppCompatActivity() {
                 params["user_pw"]=pw
                 params["user_point"]=point
                 params["user_rating"]=rating
+                params["user_mainfv"]=mainsv
+                params["user_subfv"]=subsv
 
 
                 return params

@@ -18,6 +18,7 @@ import com.example.todayquenstion.databinding.ActivityPickfavoriteBinding
 class PickfavoriteActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityPickfavoriteBinding;
+    var mainfv:String =""
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,13 +36,14 @@ class PickfavoriteActivity : AppCompatActivity() {
 
 
         binding.itbtn.setOnClickListener(){
-
+            mainfv="IT"
             val nextIntent = Intent(this, Pickfavorite2Activity::class.java)
             nextIntent.putExtra("loging_id",loging_id)
             nextIntent.putExtra("loging_nickname",loging_pw)
             nextIntent.putExtra("loging_pw",loging_nickname)
             nextIntent.putExtra("loging_point",loging_point)
             nextIntent.putExtra("loging_rating",loging_rating)
+            nextIntent.putExtra("loging_mainfv",mainfv)
             startActivity(nextIntent)
 
         }

@@ -81,7 +81,7 @@
                 android:textStyle="bold"
                 android:text="AI" />
             <Button
-                android:id="@+id/check3"
+                android:id="@+id/programingbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
@@ -167,6 +167,7 @@
 
 
         <Button
+            android:id="@+id/registerbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

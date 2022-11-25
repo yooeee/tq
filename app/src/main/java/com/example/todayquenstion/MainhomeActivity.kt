@@ -25,7 +25,9 @@ class MainhomeActivity : AppCompatActivity() {
         val loging_nickname = intent.getStringExtra("loging_nickname")
         val loging_point = intent.getStringExtra("loging_point")
         val loging_rating = intent.getStringExtra("loging_rating")
-        System.out.println("아아 받은것은 "+loging_id)
+        val loging_mainfv = intent.getStringExtra("loging_mainfv")
+        val loging_subfv = intent.getStringExtra("loging_subfv")
+        System.out.println("아아 받은것은 "+loging_id+loging_pw+loging_nickname+loging_point+loging_rating+loging_mainfv+loging_subfv)
 
         //기본적으로 메인홈 프래그먼트 보여주기
         supportFragmentManager.beginTransaction()
